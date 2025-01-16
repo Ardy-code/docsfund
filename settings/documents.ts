@@ -10,31 +10,60 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
-    href: "/navigation",
-    heading: "Documents",
-  },
-  {
-    title: "Structure",
-    href: "/structure",
+    title: "Analisis Dan Desain Perangkat Lunak",
+    href: "/analisis",
     items: [
       {
-        title: "Deep",
-        href: "/deep",
+       title: "Analisis Kebutuhan",
+       href: "/kebutuhan",
+       items: [
+        {
+         title: "Business Requirement",
+         href: "/busines",
+        },
+        {
+          title: "Stakeholder Requirement",
+          href: "/stakeholder",
+         },
+         {
+          title: "System Requirement",
+          href: "/system",
+         },
+         {
+          title: "Software Requirement",
+          href: "/software",
+         },
+      ]
+      },
+      {
+        title: "Diagram",
+        href: "/Diagram",
         items: [
           {
-            title: "Deeper",
-            href: "/deeper",
-            items: [
-              {
-                title: "Even deeper",
-                href: "/even-deeper",
-              },
-            ],
-          },
-        ],
+            title: "Usecase Diagram",
+            href: "/usecase",
+           },
+           {
+             title: "Class Diagram",
+             href: "/class",
+            },
+            {
+             title: "Flowchart",
+             href: "/system",
+            },
+        ]
       },
-    ],
+      {
+        title: "Metode SDLC",
+        href: "/metode",
+        items: [
+          {
+            title: "Scrum",
+            href: "/scrum",
+           },
+        ]
+      }
+    ]
   },
   {
     spacer: true,
