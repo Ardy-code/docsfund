@@ -49,7 +49,7 @@ export const Documents: Paths[] = [
             },
             {
              title: "Flowchart",
-             href: "/system",
+             href: "/flowchart",
             },
         ]
       },
