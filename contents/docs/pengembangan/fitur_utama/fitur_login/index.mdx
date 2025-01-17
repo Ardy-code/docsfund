@@ -1,0 +1,38 @@
+---
+title: Login dan Register
+---
+
+
+## Fitur Login dan Registrasi
+
+## 1. Registrasi
+
+**Deskripsi:**
+Pengguna baru harus melakukan registrasi untuk mengakses aplikasi.
+Saat registrasi, pengguna mengisi:
+- Username
+- Password
+
+**Alur Registrasi:**
+1. Pengguna mengisi Username, dan password di form registrasi.
+2. Sistem memvalidasi apakah email sudah terdaftar.
+3. Jika valid, akun dibuat dan data disimpan ke database.
+4. Jika tidak, Akan muncul notifikasi "Email Sudah terdaftar"
+5. Pengguna diarahkaan ke halaman login
+
+
+## 2. Login
+
+- **Deskripsi:**
+Pengguna yang sudah terdaftar login dengan username dan password mereka.
+Sistem memverifikasi email dan password dengan data di database.
+
+- **Login:**
+1. Pengguna memasukkan username dan password.
+2. Sistem memeriksa kecocokan data di database.
+3. Jika valid, pengguna diarahkan ke dashboard.
+4. Jika tidak valid, sistem menampilkan pesan kesalahan.
+
+- **Keamanan:** 
+- Password disimpan menggunakan hash untuk mencegah kebocoran.
+- Username Tidak Boleh Sama
