@@ -76,7 +76,17 @@ export const Documents: Paths[] = [
           },
           {
             title: "Prototype",
-            href: "/prototype"
+            href: "/prototype",
+          }
+        ]
+      },
+      {
+        title: "Implementasi Desain",
+        href: "/implementasi",
+        items: [
+          {
+            title: "Kode HTML,CSS,JAVASCRIPT",
+            href: "/kode"
           }
         ]
       }
