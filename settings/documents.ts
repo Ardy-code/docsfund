@@ -96,9 +96,115 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Markdown",
-    href: "/markdown",
-    heading: "Components",
+    title: "Pengembangan Aplikasi",
+    href: "/pengembangan",
+    items: [
+      {
+        title: "Fitur Utama",
+        href: "/fitur_utama",
+        items:[
+          {
+            title: "Operasi CRUD",
+            href: "/operasi_crud",
+          },
+          {
+            title: "Fitur Login dan Registrasi",
+            href: "/fitur_login",
+          },
+          {
+            title: "Fitur Interaktif",
+            href: "/fitur_interaktif",
+          }
+        ]
+      },
+      {
+        title: "Struktur Basis Data",
+        href: "/struktur_basis",
+        items: [
+          {
+            title: "MySQL",
+            href: "/mysql"
+          }
+        ]
+      },
+      {
+        title: "Metode SDLC",
+        href: "/metode_sdlc",
+        items: [
+          {
+            title: "Analisis Kebutuhan",
+            href: "/analisis_kebutuhan",
+          },
+          {
+            title: "Pembuatan Diagram UML",
+            href: "/pembuatan_diagram",
+          },
+          {
+            title: "Pengembangan Kode dan Basis Data",
+            href: "/pengembangan_kode",
+          },
+          {
+            title: "Pengujian Fungsionalitas",
+            href: "/pengujian_fungsionalitas",
+          },
+          {
+            title: "Deployment ke Vercel",
+            href: "/deployment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    spacer: true,
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/dokumentasi_pengguna",
+    items: [
+      {
+        title: "Panduan Penggunaan Website",
+        href: "/panduan_pengguna"
+      }
+    ]
+  },
+  {
+    spacer: true,
+  },
+  {
+    title: "Metode Pengembangan Perangkat Lunak",
+    href: "/metode_pengembangan",
+    items: [
+      {
+        title: "Penjelasan Metode Yang digunakan",
+        href: "/penjelasan_metode",
+      },
+      {
+        title: "Alasan Memilih Metode Yang Digunakan",
+        href: "/alasan_memilih",
+      },
+      {
+        title: "Implementasi Setiap Tahapan",
+        href: "/implementasi"
+      }
+    ]
+  },
+  {
+    spacer: true,
+  },
+  {
+    title: "Kesimpulan Dan Saran",
+    href: "/kesimpulan",
+    items: [
+      {
+        title: "Evaluasi Projek",
+        href: "/evaluasi",
+      },
+      {
+        title: "Rekomendasi Pengembangan Selanjutnya",
+        href: "/rekomendasi"
+      }
+    ]
   },
   {
     spacer: true,
